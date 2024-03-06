@@ -34,4 +34,5 @@ $id=$_GET['id'];
     </div>
          <?php
                     } 
+                    include "footer.php";
             ?>
