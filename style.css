@@ -134,3 +134,35 @@ input[type="submit"]{
 form{
   justify-content: end;
 }
+.footer1{
+  
+    height: 200px;
+}
+footer2{
+background-color: black;
+height: 50px;
+}
+.footer1 ul{
+    text-decoration: none;
+    display: block;
+    text-decoration: none;
+    list-style-type: none;
+margin: auto;
+}
+.footer1 li{
+    align-items: center;
+    /* text-align: center; */
+}
+.footer-card{
+    display: flex;
+    justify-content: space-around;
+    background-color: #3011BC;
+    color: #fff;
+}
+.footer2 button{
+    background-color: #FE7A15;;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    padding: 5px;
+}
