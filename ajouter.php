@@ -17,6 +17,7 @@ if(isset($_POST['submit'])){
         }
     }
 }
+
 ?>
   <div class="container">
     <div class="plan">
