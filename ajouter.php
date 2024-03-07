@@ -17,6 +17,7 @@ if(isset($_POST['submit'])){
         }
     }
 }
+
 ?>
   <div class="container">
     <div class="plan">
@@ -36,7 +37,10 @@ if(isset($_POST['submit'])){
     <label for="">Client_id :</label><br>
     <input type="number" name="client_id" required><br>
     <label for="">Statut :</label><br>
-    <input type="number" name="statut" required><br>
+    <select name="statut" id="statuts" class="form-control" required>
+    <option value="1">En attente</option>
+    <option value="2">Confirmer</option>
+    </select><br>
     <input type="submit" name="submit" value="Ajouter">
 </form>
 </div>
