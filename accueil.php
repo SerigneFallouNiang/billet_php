@@ -18,8 +18,7 @@ $id=$_GET['id'];
             <li>Nom du passager : <?=$row['prenom']?> <?=$row['nom']?></li>
             <li>Numéro Telephone :<?=$row['numero_tel']?></li>
             <li>Date de reservation : <?=$row['date_reservation']?></li>
-            <li>Lieu de depart : <?=$row['depart']?></li>
-            <li>Destination :<?=$row['destination']?></li>
+            <li>Trajet : : <?=$row['trajet']?></li>
             <li>Prix du biellet  : <?=$row['prix']?></li>
             <li>Heure de reservation : <?=$row['heure']?></li>
             <li>Statut : <?=$row['statut']?></li>

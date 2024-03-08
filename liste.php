@@ -18,7 +18,7 @@
           <div class="projcard-title">Client: <?=$row['prenom']?><?=$row['nom']?></div>
           <div class="projcard-subtitle">Prix du billet : <?=$row['prix']?></div>
           <div class="projcard-bar"></div>
-          <div class="projcard-description">Nous sommes ravis de vous accueillir à bord de notre vol de <?=$row['depart']?>  à <?=$row['destination']?>. Votre aventure commence le <?=$row['date_reservation'] ?>, et nous sommes impatients de faire partie de votre voyage. Préparez-vous à vivre une expérience de vol exceptionnelle avec nous.
+          <div class="projcard-description">Nous sommes ravis de vous accueillir à bord de notre vol de <?=$row['trajet']?>. Votre aventure commence le <?=$row['date_reservation'] ?>, et nous sommes impatients de faire partie de votre voyage. Préparez-vous à vivre une expérience de vol exceptionnelle avec nous.
 
 Bon voyage,</div>
           <div class="projcard-tagbox">
