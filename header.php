@@ -12,7 +12,7 @@
     <ul>
         <li><a href="#">Accueill</a></li>
         <li><a href="ajouter.php">Réserver un billet</a></li>
-        <li><a href="liste.php">Les billet disponible</a></li>
+        <li><a href="index.php">Les billet disponible</a></li>
     </ul>
 </nav>
 <div class="sign_up">
