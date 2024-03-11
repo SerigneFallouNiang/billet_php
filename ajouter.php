@@ -10,7 +10,7 @@ if(isset($_POST['submit'])){
         $stmt = $con->prepare("INSERT INTO billets(date_reservation, prix, heure, trajet, statut,client_id) VALUES (?, ?,?, ?, ?,?)");
         $stmt->bind_param("sssssi", $_POST['date_reservation'], $_POST['prix'], $_POST['heure'], $_POST['trajet'], $_POST['statut'], $_POST['client_id']);
         if ($stmt->execute()) {
-            header('Location: liste.php');
+            header('Location: index.php');
             exit();
         } else {
             $message = 'Une erreur s\'est produite lors de l\'insertion dans la base de données.';

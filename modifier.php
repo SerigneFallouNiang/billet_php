@@ -15,7 +15,7 @@
         $stmt = $con->prepare("UPDATE billets SET date_reservation=?, prix=?, heure=?, depart=? ,destination=?, statut=?   WHERE id = ?");
         $stmt->bind_param("ssssssi", $_POST['date_reservation'], $_POST['prix'], $_POST['heure'], $_POST['depart'],$_POST['destination'],$_POST['statut'],  $id);
         if($stmt->execute()){
-            header('location: liste.php');
+            header('location: index.php');
             exit;
         }
     }
